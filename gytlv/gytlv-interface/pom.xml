@@ -6,4 +6,11 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>gytlv-interface</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.zh</groupId>
+    <artifactId>gytlv-entity</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
