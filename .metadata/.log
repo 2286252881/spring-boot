@@ -2952,3 +2952,18 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:19:18.768
 !MESSAGE properties loading for project 'parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:24:00.312
+!MESSAGE properties loading for project 'common'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 15:24:00.647
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 15:24:00.649
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 15:25:10.510
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 15:25:10.512
+!MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
