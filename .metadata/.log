@@ -2949,3 +2949,6 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.534
 !MESSAGE properties removing for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:19:18.768
+!MESSAGE properties loading for project 'parent'
