@@ -3141,3 +3141,81 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 15:39:51.622
 !MESSAGE Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:41:13.250
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:10.286
+!MESSAGE properties loading for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:11.270
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:11.270
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:40.649
+!MESSAGE properties loading for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:41.487
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:41.488
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:45:41.489
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:46:08.446
+!MESSAGE properties loading for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:46:09.491
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:46:09.491
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:46:09.492
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:46:09.492
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:17.937
+!MESSAGE properties loading for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:19.712
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:19.713
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:19.713
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:19.714
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:19.714
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:33.280
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.191
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.191
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.192
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.192
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.193
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:47:35.193
+!MESSAGE loading file 'pom.properties'
