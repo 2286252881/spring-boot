@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 8 resources" deleteContents="true" description="Delete 8 resources" element1="/gytlv-" element2="/gytlv-common" element3="/gytlv-dao" element4="/gytlv-entity" element5="/gytlv-interface" element6="/gytlv-parent" element7="/gytlv-service" element8="/gytlv-web" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="8" stamp="1512285291551"/>
+</session>

@@ -1,0 +1,2951 @@
+!SESSION 2017-12-03 14:55:23.260 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-03 14:56:00.049
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hiiso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:56:00.094
+!MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:56:00.104
+!MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 19 2017-12-03 14:56:10.829
+!MESSAGE Updating the index from remote failed. Version: 1.0.1.v20150913-0716
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:290)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:259)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.downloadDatabase(AeriServer.java:148)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:57)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 14:57:53.189
+!MESSAGE Project gytlv-dao already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 14:57:53.352
+!MESSAGE Project gytlv-entity already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 14:57:53.359
+!MESSAGE Project gytlv-interface already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 14:57:53.373
+!MESSAGE Project gytlv-service already exists
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 14:57:53.376
+!MESSAGE Project gytlv-web already exists
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.181
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.185
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.186
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.187
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.188
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.189
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.190
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.191
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.192
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.193
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.193
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.194
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.195
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.196
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.197
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.198
+!MESSAGE properties loading for project 'gytlv-common'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.202
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.203
+!MESSAGE properties loading for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.203
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.204
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.205
+!MESSAGE properties loading for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.206
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.207
+!MESSAGE properties loading for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.207
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.208
+!MESSAGE properties loading for project 'gytlv-parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.209
+!MESSAGE properties loading for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.210
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.211
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.212
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 14:57:55.213
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 14:58:38.888
+!MESSAGE The POM for com.kindeditor:json_simple:jar:1.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 14:58:39.612
+!MESSAGE The POM for com.kindeditor:commons-io:jar:1.4 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 14:58:40.371
+!MESSAGE The POM for com.kindeditor:commons-fileupload:jar:1.2.1 is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-12-03 14:58:41.091
+!MESSAGE The POM for fastdfs_client:fastdfs_client:jar:1.25 is missing, no dependency information available
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.715
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.717
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.718
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.719
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.720
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.720
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.721
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.721
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.722
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.723
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.724
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.724
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.725
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.726
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.726
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.727
+!MESSAGE properties loading for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.727
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.728
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.729
+!MESSAGE properties loading for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.729
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.730
+!MESSAGE properties loading for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.731
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.731
+!MESSAGE properties loading for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.732
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.733
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.734
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:09.735
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.114
+!MESSAGE properties loading for project 'gytlv-common'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.114
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.389
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.392
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.392
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.393
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.394
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.395
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.396
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.396
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.397
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.398
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.398
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.399
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.400
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.449
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.453
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.454
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.454
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.455
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.456
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.456
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.457
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.458
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.458
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.459
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.460
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.481
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.484
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.487
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.488
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.489
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.489
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.490
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.491
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.492
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.492
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.493
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.514
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.517
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.518
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.519
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.520
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.520
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.521
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.522
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.522
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:10.523
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.363
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.364
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.365
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.365
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.366
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.366
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.367
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:11.368
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.093
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.096
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.103
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.104
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.105
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.105
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.106
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.107
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.107
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.108
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:17.109
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.352
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.354
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.360
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.361
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.361
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.362
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.363
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.363
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.364
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.365
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.365
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:19.366
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.073
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.075
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.078
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.079
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.080
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.081
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.081
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.082
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.083
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.086
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.087
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.087
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:21.088
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.386
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.388
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.388
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.389
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.389
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.390
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.390
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.391
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.391
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.391
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.392
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.392
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.393
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.393
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:00:27.394
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.292
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.294
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.295
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.296
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.296
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.297
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.297
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.298
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.298
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.299
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.300
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.300
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.301
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.301
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:12.302
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.985
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.986
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.987
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.988
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.989
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.989
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.990
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.990
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.991
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.991
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.992
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.992
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:14.993
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.109
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.111
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.112
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.113
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.113
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.114
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.115
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.116
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.116
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.117
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.118
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.119
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.119
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.120
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:17.121
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.750
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.751
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.752
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.752
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.753
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.753
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.754
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.754
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.754
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.755
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.755
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.756
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.756
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.756
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:40.757
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.450
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.452
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.453
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.454
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.455
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.457
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.457
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.458
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.459
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.460
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.461
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.461
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.462
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.463
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:04:41.463
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:05:31.418
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:05:31.419
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:05:33.026
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:05:33.026
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.100
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.101
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.102
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.103
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.103
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.104
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.105
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.105
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.106
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.107
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.108
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.109
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:05:33.109
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:05:34.205
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:05:34.205
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.003
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.005
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.005
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.006
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.007
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.007
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.008
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.009
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.009
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.010
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.010
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.011
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:06:39.012
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.726
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.728
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.729
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.729
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.730
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.731
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.731
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.732
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.732
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.733
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.734
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.734
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:04.735
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.143
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.144
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.144
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.145
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.145
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.145
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.146
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.146
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.147
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.147
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.148
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.148
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:25.148
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.728
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.729
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.730
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.730
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.731
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.731
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.732
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.732
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.733
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.734
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.734
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.735
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:07:51.735
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.500
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.501
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.501
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.502
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.502
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.503
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.503
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.503
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.504
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.504
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.505
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.505
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:01.506
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:08:11.687
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:08:11.688
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.937
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.982
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.983
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.984
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.985
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.985
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.986
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.986
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.987
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.988
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.988
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.989
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:08:21.990
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:08:24.443
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 25 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 27 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:08:24.443
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:486)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:398)
+	at org.eclipse.jdt.internal.ui.util.CoreUtility$BuildJob.run(CoreUtility.java:165)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 27 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-12-03 15:08:51.898
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:565)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2017-12-03 15:08:51.899
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:130)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:563)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:574)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:541)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:497)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:350)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:297)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:154)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:200)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated tag: 'parent' (position: START_TAG seen ...\u8fd9\u4e2a\u4e4b\u540e\u76f8\u5173\u7684\u5f15\u5165\u5c31\u4e0d\u9700\u8981\u6dfb\u52a0version\u914d\u7f6e\uff0cspring boot\u4f1a\u81ea\u52a8\u9009\u62e9\u6700\u5408\u9002\u7684\u7248\u672c\u8fdb\u884c\u6dfb\u52a0\u3002 -->\n\t<parent>... @16:10) 
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.checkFieldWithDuplicate(MavenXpp3Reader.java:114)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2036)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3807)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:557)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:125)
+	... 26 more
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.492
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.494
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.494
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.495
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.496
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.496
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.497
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.497
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.498
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.499
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.500
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.500
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.501
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:14.502
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.134
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.135
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.136
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.136
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.137
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.138
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.138
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.139
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.139
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.140
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.141
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.141
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:17.142
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.392
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.394
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.395
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.396
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.397
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.397
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.398
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.399
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.399
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.400
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.401
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.402
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.403
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.403
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:18.404
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.143
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.146
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.147
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.147
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.148
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.149
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.149
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.150
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.151
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.152
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.152
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.153
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.154
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.159
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.160
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.161
+!MESSAGE properties loading for project 'gytlv-common'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.161
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.162
+!MESSAGE properties loading for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.163
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.163
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.164
+!MESSAGE properties loading for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.164
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.165
+!MESSAGE properties loading for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.165
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.166
+!MESSAGE properties loading for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.166
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.167
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.168
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.168
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.520
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.522
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.523
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.523
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.524
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.524
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.525
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.526
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.526
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.527
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.528
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.528
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.529
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.548
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.550
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.550
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.551
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.551
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.552
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.552
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.553
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.553
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.554
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.554
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.555
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.570
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.572
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.573
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.573
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.574
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.575
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.575
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.576
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.576
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.577
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.578
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.595
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.597
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.597
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.598
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.599
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.599
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.600
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.600
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.601
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:56.601
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.232
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.234
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.234
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.235
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.236
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.236
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.237
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:10:57.237
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.374
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.375
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.376
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.376
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.377
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.377
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.378
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.379
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.379
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.818
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.820
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.820
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.821
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.822
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.822
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.823
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.824
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.825
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.825
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:01.826
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.456
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.457
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.457
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.458
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.458
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.459
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.459
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.460
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.460
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.460
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.461
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:03.461
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.037
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.038
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.038
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.039
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.039
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.040
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.040
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.041
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.041
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.041
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.042
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.042
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:04.043
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.891
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.892
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.893
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.893
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.894
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.894
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.894
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.895
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.895
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.896
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.896
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.896
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.897
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.897
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:09.897
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.551
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.553
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.553
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.554
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.554
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.554
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.555
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.555
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.556
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.557
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.557
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.558
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.558
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:44.559
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.341
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.342
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.343
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.343
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.344
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.344
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.344
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.345
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.345
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.346
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.346
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.347
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.347
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:46.347
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.077
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.079
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.080
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.080
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.081
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.082
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.082
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.083
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.083
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.084
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.084
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.085
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.086
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.086
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:48.087
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.630
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.631
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.632
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.632
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.633
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.633
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.634
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.634
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.634
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.635
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.635
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.636
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:50.636
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.508
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.511
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.513
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.513
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.514
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.514
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.514
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.515
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.515
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.516
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.516
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.517
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.517
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.517
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:51.518
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.403
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.405
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.406
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.406
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.407
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.407
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.408
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.408
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.409
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.409
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.410
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.410
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:54.411
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.584
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.586
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.586
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.587
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.588
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.588
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.589
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.589
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.590
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.590
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.591
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.591
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.592
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:56.593
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.143
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.145
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.147
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.147
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.148
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.149
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.149
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.150
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.150
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.151
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.153
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.154
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.154
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.155
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:11:59.156
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.746
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.747
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.747
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.748
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.748
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.749
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.749
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.749
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.750
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.750
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.750
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.751
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:00.751
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.016
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.018
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.018
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.019
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.019
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.020
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.021
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.021
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.022
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.022
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.023
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.024
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.024
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.025
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:01.025
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.471
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.472
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.473
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.785
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.787
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.787
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.788
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.788
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.788
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.789
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.789
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.790
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.790
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.790
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.791
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.791
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.791
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.826
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.827
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.827
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.828
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.828
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.828
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.829
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.829
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.830
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.830
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.830
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.831
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:02.831
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.778
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.779
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.780
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.780
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.781
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.781
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.781
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.782
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.782
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.783
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.783
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.783
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.784
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.784
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:07.785
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.635
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.636
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.637
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.911
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.912
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.913
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.913
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.914
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.915
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.915
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.916
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.917
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.917
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.918
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.918
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:31.919
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.839
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.840
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.841
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.842
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.842
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.843
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.843
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.844
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.845
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.845
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.846
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.847
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.847
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.848
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:35.849
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.973
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.975
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.976
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.977
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.977
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.978
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.978
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.979
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.980
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.981
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.981
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.982
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.982
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.983
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:12:47.984
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.610
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.612
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.613
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.613
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.613
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.614
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.614
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.615
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.615
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.615
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.616
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.616
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.617
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.617
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:11.618
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.355
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.356
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.357
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.357
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.358
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.358
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.359
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.359
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.360
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.360
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.361
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.361
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.361
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.362
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:29.362
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.061
+!MESSAGE properties loading for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.062
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.063
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.063
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.064
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.064
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.065
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.065
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.066
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.066
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.066
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.067
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.067
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.067
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:13:31.068
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.532
+!MESSAGE properties removing for project 'gytlv-'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.533
+!MESSAGE properties removing for project 'gytlv-common'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.533
+!MESSAGE properties removing for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.533
+!MESSAGE properties removing for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.533
+!MESSAGE properties removing for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.534
+!MESSAGE properties removing for project 'gytlv-parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.534
+!MESSAGE properties removing for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-03 15:14:51.534
+!MESSAGE properties removing for project 'gytlv-web'
