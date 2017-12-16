@@ -7,3 +7,6 @@
 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
 .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/8.png
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+*.xmi
