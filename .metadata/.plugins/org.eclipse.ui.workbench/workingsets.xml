@@ -10,6 +10,5 @@
 <item elementID="=gytlv-interface" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=gytlv-dao" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
-<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1513420804388_3" label="Activiti" name="Activiti"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1512284223096_0" label="Window Working Set" name="Aggregate for window 1512284223096"/>
 </workingSetManager>

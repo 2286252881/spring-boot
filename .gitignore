@@ -1,3 +1,4 @@
 *.metadata
 *.recommenders
 *.RemoteSystemsTempFiles
+.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
