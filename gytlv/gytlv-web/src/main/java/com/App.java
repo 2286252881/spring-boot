@@ -32,7 +32,6 @@ public class App extends WebMvcConfigurerAdapter{
 	@Override
 	public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
 		super.configureMessageConverters(converters);
-		
 		// 1.需要定义一个convert转换消息的对象
 		FastJsonHttpMessageConverter fastConvert = new FastJsonHttpMessageConverter();
 		// 2.添加fastJson的配置信息，比如：是否格式化返回的json数据
