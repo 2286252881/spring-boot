@@ -9872,3 +9872,672 @@ javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
 	at org.eclipse.epp.internal.logging.aeri.ui.v2.AeriServer.downloadDatabase(AeriServer.java:148)
 	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:57)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-12-16 17:40:44.701 -----------------------------------------------
+eclipse.buildId=4.5.1.M20150904-0015
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data D:\eclipsework\spring-boot -product org.eclipse.epp.package.jee.product
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.129
+!MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.188
+!MESSAGE properties loading for project 'common'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.198
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.270
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.331
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.406
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.446
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.469
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.503
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.562
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.591
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.837
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.871
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:02.944
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-12-16 17:41:02.961
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hiiso'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.227
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.437
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.544
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.545
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.547
+!MESSAGE properties loading for project 'gytlv-dao'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.547
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.548
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.549
+!MESSAGE properties loading for project 'gytlv-entity'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.550
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.554
+!MESSAGE properties loading for project 'gytlv-interface'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.555
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.556
+!MESSAGE properties loading for project 'gytlv-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.557
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.558
+!MESSAGE properties loading for project 'gytlv-web'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.560
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.561
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:41:03.562
+!MESSAGE properties loading for project 'parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:21.882
+!MESSAGE properties removing for project 'parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:27.619
+!MESSAGE properties loading for project 'parent'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.158
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.160
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.161
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.162
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.163
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.164
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.165
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.165
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.168
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.169
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.170
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.171
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.172
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.173
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:31.174
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.200
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.202
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.203
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.203
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.204
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.205
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.206
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.206
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.207
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.208
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.209
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.209
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.210
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.211
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:33.212
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.184
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.186
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.649
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.650
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.651
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.651
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.652
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.653
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.658
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.658
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.659
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.660
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.660
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.662
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:38.662
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.799
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.804
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.805
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.806
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.808
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.808
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.811
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.812
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.813
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.814
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.815
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.815
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.816
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.818
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 17:49:39.819
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2017-12-16 18:07:57.748
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.168
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.170
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.171
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.172
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.173
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.173
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.174
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.175
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.175
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.176
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.177
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.177
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.178
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.179
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:03.180
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.jdt.core 4 4 2017-12-16 18:09:04.542
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: gytlv-web
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:794)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Could not delete '/gytlv-web/target/classes/META-INF'.
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle\img.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF.
+!SUBENTRY 1 org.eclipse.core.resources 4 273 2017-12-16 18:09:04.544
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 273 2017-12-16 18:09:04.544
+!MESSAGE Could not delete '/gytlv-web/target/classes/META-INF'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while deleting resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.delete(FileSystemResourceManager.java:354)
+	at org.eclipse.core.internal.resources.ResourceTree.internalDeleteFolder(ResourceTree.java:358)
+	at org.eclipse.core.internal.resources.ResourceTree.standardDeleteFolder(ResourceTree.java:810)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1831)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:781)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:115)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:47)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:186)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Problems encountered while deleting files.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle\img.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources.
+Contains: Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF.
+!SUBENTRY 3 org.eclipse.core.resources 4 273 2017-12-16 18:09:04.544
+!MESSAGE Problems encountered while deleting resources.
+!SUBENTRY 4 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.544
+!MESSAGE Problems encountered while deleting files.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.544
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle\img.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.544
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css\zTreeStyle.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.567
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree\css.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.567
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin\ztree.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.567
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources\plugin.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.567
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF\resources.
+!SUBENTRY 5 org.eclipse.core.filesystem 4 273 2017-12-16 18:09:04.567
+!MESSAGE Could not delete: D:\eclipsework\spring-boot\gytlv\gytlv-web\target\classes\META-INF.
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.863
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.864
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.865
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.866
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.867
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.867
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.868
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.869
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.869
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.882
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.883
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.884
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.885
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:05.885
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.360
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.363
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.364
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.365
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.365
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.366
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.378
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.379
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.380
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.381
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.381
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.382
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.383
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.384
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:09.385
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.963
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.965
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.966
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.967
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.968
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.969
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.969
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.970
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.971
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.972
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.972
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.974
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.975
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.975
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:11.976
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.260
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.262
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.263
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.264
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.264
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.265
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.266
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.267
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.267
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.268
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.269
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.270
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.270
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.271
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:57.271
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.268
+!MESSAGE properties loading for project 'gytlv'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.270
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.271
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.272
+!MESSAGE loading file 'application-dev.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.272
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.273
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.274
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.275
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.276
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.276
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.277
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.278
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.278
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.279
+!MESSAGE loading file 'application.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-12-16 18:09:59.280
+!MESSAGE loading file 'pom.properties'

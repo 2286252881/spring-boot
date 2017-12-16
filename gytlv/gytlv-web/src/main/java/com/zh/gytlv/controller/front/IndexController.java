@@ -14,7 +14,8 @@ import com.zh.gytlv.entity.Article;
 import com.zh.gytlv.entity.Menu;
 import com.zh.gytlv.service.front.FrontMenuService;
 import com.zh.gytlv.service.front.IndexService;
-import com.zh.gytlv.utils.IpUtil;
+
+import utils.IpUtil;
 
 @Controller
 public class IndexController {
