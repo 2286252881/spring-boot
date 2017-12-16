@@ -1,6 +1,3 @@
-*.metadata
-*.recommenders
-*.RemoteSystemsTempFiles
-.metadata/.plugins.*
-.metadata/.plugins/org.eclipse.jdt.core/238881263.index
-.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+*.metadata/**
+*.recommenders/**
+*.RemoteSystemsTempFiles/**
